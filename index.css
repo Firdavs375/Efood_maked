@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+body {
+    background-color: #d8dbff;
+}
+
+nav {
+    margin-top: 60px;
+}
+
+.nav_ota {
+    display: flex;
+    margin-top: 5px;
+}
+
+.list_item {
+    display: flex;
+    gap: 60px;
+}
+
+.iconlar {
+    margin-left: 60px;
+}
+
+.button {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    border: none;
+    padding: 14px 28px;
+}
+
+.katta_soz {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+    text-transform: capitalize;
+    color: #363853;
+}
+
+span {
+    color: #FF7A50;
+}
+
+
+
+.kop_soz {
+    width: 500px;
+    /* border: 2px solid red; */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.button_2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    border: none;
+    padding: 12px 21px;
+}
+
+.btn_app {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.btn_oldi {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.sozlar_div {
+    margin-top: 220px;
+    margin-left: 80px;
+}
+
+.brat {
+    width: 100%;
+    margin-top: 120px;
+    margin-left: -20px;
+}
+
+.catigory {
+    margin-left: 280px;
+    margin-top: 90px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    color: #363853;
+}
+
+.divlar_ota {
+    display: flex;
+    width: 1120px;
+    margin-left: 100px;
+    gap: 26px;
+}
+
+.ramka_uchun {
+    display: flex;
+    width: 220px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.174);
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.ramka_uchun:hover {
+    background: #FF7A50;
+    color: #ffffff;
+}
+
+.masaliq {
+    width: 44px;
+}
+
+/* .masaliq:hover {
+    color: #ffffff;
+} */
+
+.masaliq_nomi {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #363853;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* .masaliq_nomi:hover {
+    color: #ffffff;
+} */
+
+.ramka_uchun_b {
+    display: flex;
+    width: 220px;
+    border: 2px solid #FF7A50;
+    background: #FF7A50;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.288);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.masaliq_nomi_b {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.w {
+    height: 45px;
+    margin-top: 5px;
+}
+
+.burger_rasm {
+    width: 150px;
+    margin-left: 15px;
+}
+
+.yulduzlar {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: -16px;
+}
+
+.malumot {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+}
+
+.narx {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    color: #363853;
+}
+
+.button_3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #FF7A50;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 13px;
+    margin-bottom: 15px;
+}
+
+.card_ota {
+    display: flex;
+    /* width: 1020px; */
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.cardlar {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+    border-radius: 8px;
+}
+.p{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.k{
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
