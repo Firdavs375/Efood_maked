@@ -200,7 +200,7 @@ span {
 }
 
 .yulduzlar {
-    width: 150px;
+    /* width: 150px; */
     margin-left: 15px;
     margin-top: -16px;
 }
@@ -249,15 +249,218 @@ span {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
     border-radius: 8px;
 }
-.p{
+
+.p {
     width: 150px;
     margin-left: 15px;
     margin-top: 2px;
 }
 
-.k{
-    width: 150px;
-    margin-left: 15px;
-    margin-top: 2px;
+.k {
+    /* width: 150px; */
+    margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.yetgazib_berdi {
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+.katta_soz_2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-bottom: 30px;
+}
+
+.malumotlar_2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.soat {
+    width: 40px;
+    height: 40px;
+}
+
+.iconni_sozi {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+
+.icon_sozlar_div {
+    margin-bottom: 30px;
+}
+
+.icon_sozlar {
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+
+.yetgazdini_sozlari {
+    /* border: 2px solid #FF7A50; */
+    text-align: start;
+    margin-top: 270px;
+    margin-left: 140px;
+}
+
+.border_ucun {
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 30px 30px 1px 30px;
+    width: 178px;
+    padding: 20px 44px 5px;
+
+}
+
+.see_more {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.card_sarlavha {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-left: 300px;
+}
+
+.cardlar_2 {
+    width: 360px;
+    background: #FFFFFF;
+    border-radius: 53px 5px;
+}
+
+.soat_strelka {
+    display: flex;
+    margin-left: 18px;
+    margin-top: 5px;
+
+}
+
+.timer {
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+
+}
+
+.vaqt {
+    margin-top: 5px;
+    margin-left: 9px;
+    margin-right: 30px;
+}
+
+.strelka {
+    width: 79px;
+    height: 33px;
+    background: #FF7A50;
+    box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+    border-radius: 20px 20px 0px 20px;
+}
+
+.card_soz {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+    margin-right: 190px;
+    margin-top: 10px;
+}
+
+.cardlarni_otasi {
+    display: flex;
+    gap: 45px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card_rasm {
+    width: 360px;
+}
+
+.sarlavha_3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #363853;
+    margin-bottom: 30px;
+}
+
+.sarlavha_3_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.ilovalar_div {
+    display: flex;
+    gap: 35px;
+}
+
+.kichik_gaplar {
+    text-align: start;
+    margin-top: 120px;
+}
+
+section {
+    margin-top: 160px;
+    margin-left: 220px;
+}
+
+.kop_soz_2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: #363853;
+}
+
+.qoshtirnoq {
+
+}
+samp{
+    font-weight: 400;
+    font-size: 500px;
+    color: #DDDDDD;
 }
