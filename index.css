@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
-
+    cursor: auto;
 }
 
 body {
@@ -112,8 +113,10 @@ span {
     margin-left: -20px;
 }
 
+
+
 .catigory {
-    margin-left: 280px;
+    margin-left: 260px;
     margin-top: 90px;
     font-family: 'Rubik';
     font-style: normal;
@@ -342,6 +345,10 @@ span {
     color: #FFFFFF;
 }
 
+footer {
+    margin-top: 100px;
+}
+
 .card_sarlavha {
     font-family: 'Rubik';
     font-style: normal;
@@ -418,6 +425,8 @@ span {
     text-transform: capitalize;
     color: #363853;
     margin-bottom: 30px;
+    margin-top: 150px;
+
 }
 
 .sarlavha_3_text {
@@ -441,7 +450,7 @@ span {
     margin-top: 120px;
 }
 
-section {
+.section {
     margin-top: 160px;
     margin-left: 220px;
 }
@@ -454,13 +463,209 @@ section {
     line-height: 45px;
     letter-spacing: 0.5px;
     color: #363853;
+    text-align: start;
+    margin-top: 60px;
 }
 
-.qoshtirnoq {
-
+.Anglina {
+    margin-left: -110px;
 }
-samp{
+
+.Anglina_sozi {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7A50;
+    text-align: start;
+}
+
+.kickiniina_soz {
+    font-family: 'Rubik';
+    font-style: normal;
     font-weight: 400;
-    font-size: 500px;
-    color: #DDDDDD;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+    text-align: start;
+    margin-top: 25px;
+}
+
+.olovrang_quti {
+    background: #FF7A50;
+    border: 2px solid #FF7A50;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.text_6 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.text_10 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.oq_quti {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+    width: 830px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #363853;
+    opacity: 0.9;
+    margin: 16px 0px;
+}
+
+.Subscribe {
+    background: #FF7A50;
+    border-radius: 70px;
+    border: none;
+    padding: 10px;
+    width: 160px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.samoliyot {
+    margin-right: 10px;
+}
+
+.iconlar_uchun_div_2 {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.icon_4 {
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+}
+
+.oxirgi_qator {
+    margin-top: 80px;
+    margin-left: 230px;
+    width: 1200px;
+    margin-left: 250px;
+    border: 1px solid #FFFFFF;
+}
+
+.birinchi_qator {
+    text-align: start;
+}
+
+.logo_2 {
+    margin-bottom: 25px;
+}
+
+.i {
+    gap: 15px;
+}
+
+.t {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #37383D;
+}
+
+.ikkinchi_qator {
+    text-align: start;
+    margin-top: -10px;
+    /* margin-left: 60px; */
+}
+
+.textlar_1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #37383D;
+}
+
+.m {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #37383D;
+}
+
+.tortta_qattor {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.oxirgi_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.oxirgi_ucta_soz {
+    display: flex;
+    gap: 50px;
+}
+
+.ciqan_yil {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+}
+
+.sozcalar {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
 }
